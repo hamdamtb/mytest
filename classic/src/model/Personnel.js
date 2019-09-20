@@ -8,7 +8,6 @@ Ext.define('MyTest.model.Personnel', {
             {name: 'favourite', type: 'boolean', defaultValue: false}
         ],
     proxy: {
-        type: 'rest',
-        url: "https://api.github.com/repos/nickperkinslondon/angular-bootstrap-nav-tree/forks"
+        type: 'rest'
     }
 });

@@ -20,7 +20,7 @@ Ext.define('MyTest.view.main.List', {
         stores: {
             myPersonnel: {
                 model: 'MyTest.model.Personnel',
-                autoLoad : true,
+                //autoLoad : true,
                 pageSize: 25,
                 listeners : {
                     load : function(s, records){
@@ -79,7 +79,7 @@ Ext.define('MyTest.view.main.List', {
             }]
         }
     ],
-    autoLoad : true,
+    //autoLoad : true,
 
     bbar: {
 
